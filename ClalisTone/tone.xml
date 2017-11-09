@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="shift_jis"?>
+ <tone>
+	<toneDiscription>
+		<name>1</name>
+		<type>0</type>
+		<befor>おはよう</befor>
+		<after>おはようございます</after>
+	</toneDiscription>
+	<toneDiscription>
+		<name>2</name>
+		<type>0</type>
+		<befor>バイバイ</befor>
+		<after>さようなら</after>
+	</toneDiscription>
+	
+ </tone>
