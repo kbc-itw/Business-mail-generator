@@ -34,8 +34,7 @@ else {
     $arr_filter = array();
 }
 ?>
-<html>
-<head>
+<html><head>
 <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
 <title>テキスト解析デモ - 日本語形態素解析</title>
 </head>
