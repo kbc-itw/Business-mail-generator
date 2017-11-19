@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Bootstrap</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+	</head>
+	<body>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		
+		<div class="page-header">
+	<h1>ビジネスメール生成機
+		<small>ビジネス文書テンプレート</small>
+	</h1>
+</div>
+
+<!-- 縦タブ -->
+<ul class="nav nav-tabs">
+	<li class="active"><a href="#sampleContentA" data-toggle="tab">ビジネスメール生成機(beta)</a></li>
+	<li><a href="#sampleContentB" data-toggle="tab">マナー,礼儀作法(仮)</a></li>
+	<li><a href="#sampleContentC" data-toggle="tab">書き方テンプレート(仮)</a></li>
+	<li><a href="#sampleContentD" data-toggle="tab">その他(仮)</a></li>
+</ul>
+
+<!-- タブ内容 -->
+<div class="tab-content">
+	<div class="tab-pane active" id="sampleContentA">
+	
+		<form action="cgi-bin/formmail.cgi" method="post">
+			<p>カテゴリー：
+			<select name="blood">
+			<option value="category1">挨拶状</option>
+			<option value="category2">礼状</option>
+			<option value="category3">謝罪文</option>
+			<option value="category4">始末書</option>
+			</select></br>
+			
+			<input type="text" name="when" size="20" maxlength="20">
+			<input type="text" name="where" size="20" maxlength="20">
+			<input type="text" name="who" size="20" maxlength="20">
+			<input type="text" name="what" size="20" maxlength="20">
+			<input type="text" name="why" size="20" maxlength="20">
+			<input type="text" name="how" size="20" maxlength="20">
+			</p>
+	
+		<form action="">
+			<!-- ビジネス語に変換された文字列の入力欄 -->
+            <textarea name="" id="input" cols="50" rows="10"></textarea>
+			<!-- ビジネス語に変換された文字列の出力欄 -->
+            <textarea name="" id="a" cols="50" rows="10"></textarea>
+        </form>
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>	
+	</div>
+	
+	<div class="tab-pane" id="sampleContentB">
+		<p>内容</p>
+	</div>
+	
+	<div class="tab-pane" id="sampleContentC">
+		<p>内容</p>
+	</div>
+	
+	<div class="tab-pane" id="sampleContentD">
+		<p>内容</p>
+	</div>
+</div>
+
+<!-- 横タブ -->
+<div class="list-group">
+	<a class="list-group-item" href="#">挨拶(仮)</a>
+	<a class="list-group-item" href="#">謝罪(仮)</a>
+	<a class="list-group-item" href="#">お礼(仮)</a>
+	<a class="list-group-item" href="#">始末書(仮)</a>
+</div>
+
+	</body>
+</html>
